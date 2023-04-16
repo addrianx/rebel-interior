@@ -1,0 +1,30 @@
+/* STYLING CONTACT PAGE */
+
+.title-contact p {
+    font-size: 16px;
+}
+
+.address-box {
+    padding: 100px 15px;
+}
+
+.address-contact p {
+    font-size: 16px;
+    &:first-child {
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 992px) {
+    .title-contact {
+        width: 75%;
+        p {
+            font-size: 20px;
+        }
+    }
+    .address-contact {
+        p {
+            font-size: 20px;
+        }
+    }
+}
